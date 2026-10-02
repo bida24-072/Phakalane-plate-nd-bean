@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations | Phakalane Plate & Bean</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">OPEN MON-SAT 7AM - 10PM | SUNDAY 8AM - 5PM | CALL: +267 7123 4567</div>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Phakalane <span>Plate & Bean</span></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="reservations.html" class="active">Reservations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-search"></i>
+                <a href="reservations.html"><i class="fas fa-calendar-check"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="form-container">
+        <h2 class="section-title">Book a Table</h2>
+        <p style="text-align: center; margin-bottom: 40px; color: #6B6B6B;">Reserve your spot for an unforgettable dining experience.</p>
+        
+        <form onsubmit="submitReservation(event)">
+            <div class="form-group">
+                <label for="res-name">Full Name</label>
+                <input type="text" id="res-name" required placeholder="e.g. Kabelo Moeng">
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="res-email">Email Address</label>
+                    <input type="email" id="res-email" required placeholder="you@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="res-phone">Phone Number</label>
+                    <input type="tel" id="res-phone" required placeholder="+267 ...">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="res-date">Date</label>
+                    <input type="date" id="res-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="res-time">Time</label>
+                    <input type="time" id="res-time" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="res-guests">Number of Guests</label>
+                    <select id="res-guests" required>
+                        <option value="">Select...</option>
+                        <option>1-2 Guests</option>
+                        <option>3-4 Guests</option>
+                        <option>5-6 Guests</option>
+                        <option>7+ Guests (Private Event)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="res-occasion">Occasion (Optional)</label>
+                    <input type="text" id="res-occasion" placeholder="Birthday, Anniversary...">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="res-notes">Special Requests</label>
+                <textarea id="res-notes" rows="4" placeholder="Dietary requirements, seating preference..."></textarea>
+            </div>
+            <button type="submit" class="btn" style="width: 100%;">Request Reservation</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>Phakalane Plate & Bean</h4>
+                <p>Proudly Motswana-owned. Serving authentic local flavours and freshly brewed coffee in the heart of Gaborone.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="menu.html">Full Menu</a></li>
+                    <li><a href="reservations.html">Book a Table</a></li>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Visit Us</h4>
+                <ul>
+                    <li>Plot 54321, Gaborone CBD</li>
+                    <li>Mon-Sat: 7AM - 10PM</li>
+                    <li>Sun: 8AM - 5PM</li>
+                    <li>+267 7123 4567</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div style="font-size: 1.5rem; display: flex; gap: 15px;">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-tiktok"></i>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Phakalane Plate & Bean. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
