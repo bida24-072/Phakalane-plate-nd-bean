@@ -1,25 +1,25 @@
-# 🇧🇼 Maatla & Co. — Premium Botswana Boutique
+ # 🇧🇼 Phakalane Plate & Bean — Restaurant & Café
 
 ![Status](https://img.shields.io/badge/Status-Live-success)
-![Made in Botswana](https://img.shields.io/badge/Made%20in-Botswana%20🇧🇼-black)
-![License](https://img.shields.io/badge/License-MIT-brown)
+![Made in Botswana](https://img.shields.io/badge/Made%20in-Botswana%20🇧🇼-green)
+![License](https://img.shields.io/badge/License-MIT-gold)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
-A modern, responsive, and elegant e-commerce website for **Maatla & Co.**, a premium fashion boutique located in **GameCity Mall, Gaborone** (near Botho University). This project showcases a curated collection of trousers, t-shirts, scarfs, shoes, bracelets, and headbands — with a strong emphasis on supporting local Motswana entrepreneurship.
+A modern, inviting, and proudly Motswana-owned restaurant and café website for **Phakalane Plate & Bean** — serving authentic local cuisine and freshly brewed coffee in the heart of Gaborone.
 
 ---
 
 ## 📖 Table of Contents
 
-- [About the Brand](#-about-the-brand)
+- [About the Restaurant](#-about-the-restaurant)
 - [Design Philosophy](#-design-philosophy)
 - [Features](#-features)
 - [Project Structure](#-project-structure)
 - [Getting Started](#-getting-started)
 - [Deploying to GitHub Pages](#-deploying-to-github-pages)
-- [How the Cart Works](#-how-the-cart-works)
+- [How the Menu Filtering Works](#-how-the-menu-filtering-works)
 - [Customisation Guide](#️-customisation-guide)
 - [Screenshots](#-screenshots)
 - [Roadmap](#️-roadmap)
@@ -29,48 +29,53 @@ A modern, responsive, and elegant e-commerce website for **Maatla & Co.**, a pre
 
 ---
 
-## 🏬 About the Brand
+## 🍽️ About the Restaurant
 
-**Maatla & Co.** is a proudly Motswana-owned fashion boutique based in **GameCity Mall, Gaborone**, just a short walk from **Botho University**. The brand was founded on the belief that Botswana deserves world-class fashion without compromising local identity. Every piece is hand-selected with care, and every customer is treated like family.
+**Phakalane Plate & Bean** is a proudly Motswana-owned restaurant and café that celebrates the rich flavours of Botswana. We serve traditional dishes like *seswaa*, *pap*, and *bogobe* alongside modern café favourites — all in a warm, welcoming atmosphere.
 
-**Location:** GameCity Mall, Gaborone, Botswana  
-**Hours:** Mon–Sat: 9AM – 8PM | Sun: 10AM – 5PM  
-**Contact:** +267 7123 4567
+We source our ingredients from local farmers and producers wherever possible, ensuring that every plate supports our community. Our coffee beans are roasted locally, and our menu changes with the seasons.
+
+**Location:** Plot 54321, Gaborone CBD (Near Main Mall)  
+**Hours:** Mon–Sat: 7AM – 10PM | Sun: 8AM – 5PM  
+**Contact:** +267 7123 4567  
+**Email:** hello@phakalaneplate.co.bw
+
+Whether you're here for a quiet morning coffee, a business lunch, or a family celebration — we welcome you like family.
 
 ---
 
 ## 🎨 Design Philosophy
 
-The visual identity of this boutique is built on a **sophisticated Black, White, and Brown** palette. This combination moves away from traditional "feminine" boutique colours and instead projects a **timeless, premium, and unisex feel** — appealing to the modern, discerning Motswana shopper.
+The visual identity of this restaurant is built on a **warm, earthy palette inspired by African hospitality**. This combination evokes the feeling of a safari sunset, rich soil, and golden savannah — creating a space that feels both premium and welcoming.
 
 | Colour | Hex | Purpose |
 |--------|-----|---------|
-| ⚫ Primary Black | `#1a1a1a` | Grounding, premium, timeless |
-| ⚪ Primary White | `#ffffff` | Clean, airy, minimalist |
-| 🟤 Coffee Brown | `#6F4E37` | Warmth, earthiness, sophistication |
-| 🟤 Light Brown | `#A67B5B` | Accents and hover states |
-| 🟫 Accent Beige | `#F5F5DC` | Subtle background tones |
+| 🌲 Deep Forest Green | `#1B3B2F` | Primary brand colour, grounding, natural |
+| 🌾 Warm Cream | `#FDFBF7` | Backgrounds, airy and inviting |
+| 🌟 Terracotta Gold | `#C89B3C` | Accents, highlights, warm glow |
+| 🔥 Sienna Rust | `#A0522D` | Prices, earthy warmth |
+| ⚫ Text Dark | `#2C2C2C` | Primary text, readable and strong |
 
 **Typography:**
 - **Headings:** Playfair Display (serif) — classic, elegant, editorial
 - **Body:** Lato (sans-serif) — clean, modern, highly readable
 
+**Photography:** All imagery celebrates food, warmth, and community — from full plated dishes to cosy café corners.
+
 ---
 
 ## ✨ Features
 
-- 🛍️ **Full Product Catalogue** — Trousers, T-Shirts, Scarfs, Shoes, Bracelets, Head Bands
-- 🛒 **Persistent Shopping Cart** — Powered by `localStorage`; saves items even after page refresh
-- 📱 **Fully Responsive** — Optimised for mobile, tablet, and desktop
-- 🧭 **Multi-Page Structure** — Home, Shop, About, Contact, Cart
-- ⚡ **Fast & Lightweight** — No heavy frameworks; pure HTML, CSS, and vanilla JavaScript
-- 🗺️ **Localised Content** — Explicit references to GameCity Mall and Botho University
-- 🔗 **Consistent Nav & Footer** — Unified experience across every page
-- 🎨 **Custom Brand Palette** — Black, white, and brown theme throughout
+- 🍳 **Full Menu System** — Breakfast, Mains, Light Meals, Drinks, Desserts
+- 🔎 **Category Filtering** — Customers can filter the menu with one click
+- 📅 **Reservation System** — Complete booking form with date, time, guests, and special requests
 - 📩 **Contact Form** — Functional demo form with instant feedback
+- 🏠 **Multi-Page Structure** — Home, Menu, About, Reservations, Contact
+- ⚡ **Fast & Lightweight** — No heavy frameworks; pure HTML, CSS, and vanilla JavaScript
+- 📱 **Fully Responsive** — Optimised for mobile, tablet, and desktop
+- 🗺️ **Localised Content** — Explicit references to Gaborone CBD and local cuisine
+- 🔗 **Consistent Nav & Footer** — Unified experience across every page
 
 ---
 
 ## 📁 Project Structure
-
-### Option A: Multi-File Structure (Recommended for GitHub)
